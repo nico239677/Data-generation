@@ -11,6 +11,30 @@ This fake data makes it possible:
 <br>
 2/ to try to <b>explain</b> the variation in sales with the stories
 
+# Stories created to "explain" the variation in data
+## Story 1: 
+**IF** sales during holiday seasons (Christmas, Summer, Valentine's Day) **THEN** higher number of orders
+
+## Story 2: 
+**IF** sales during middle of the week **THEN** more higher number of orders
+
+## Story 3: 
+**IF** High marketing spending **THEN** higher number of orders
+
+## **Story 4**: 
+**IF** day = *Tuesday* **AND** season = *Spring* **AND** Marketing Spending = *LOW* (1st quartile)
+**THEN** Number of Orders = 25% more the next day
+
+## Story 5: 
+**IF** high number of products sold, **THEN** high number of orders
+
+## **Story 6**:
+**IF** Marketing expense = *High* (Highest 20%) **AND** product_1 sells more than product_3 
+**THEN** Number of Orders = 25% Higher
+
+## **Story 7:**
+**IF** we put a lower price to a product, **THEN** we sell more orders of this product
+
 # Files
 <b>Generating data - Table generator vf.py</b>: contains the code to generate fake data --> can be used to generate fake data, with the possibility to modify parameters, 
 add or remove stories...
